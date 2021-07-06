@@ -26,7 +26,7 @@ $ git clone https://github.com/sergden2021/python-practice.git
 <br>
 <br>
 
-<p align="left">3. Task: Create a program, if you enter a row, that sees all the numbers in the surrounding array, for which the program is another row without numbers. and an array of numbers. The change of a row in such a rank, so that the word is skinny in new, was repaired and ended with a great letter. To know the maximum value in the array of numbers, and all of the іnshі numbers are brought to the degree according to the іх index, that is recorded in the first array.</p> 
+<p align="left">3. Завдання: Створіть програму, якщо ви введете рядок, який бачить усі числа в оточуючому масиві, для яких програма є іншим рядком без чисел. і масив чисел. Зміна ряду в такому рангу, щоб слово було худим по-новому, була відремонтована і закінчилася великою буквою. Щоб знати максимальне значення в масиві чисел, і всі інші числа доводяться до ступеня відповідно до їх індексу, який записаний у першому масиві.</p> 
 
 ### Example
 
