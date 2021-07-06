@@ -51,5 +51,5 @@ else:
 <em><p align="left">Screenshots of program execution are shown below:</p></em>
 
 <kbd>
-    <img src="" width="700px" title="Task-0">
+    <img src="https://drive.google.com/uc?id=1Bkz2XwyOrOyByYxjlfqfPMO9JOe2DKwG" width="700px" title="Task-0">
 </kbd>
