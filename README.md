@@ -65,10 +65,6 @@ for i in mass:
 print('Найбільше значення у масиві: ' + str(maxymum)  )
 print('Підвищення чисел до степенів за їх індексом ([номер, ступінь, індекс], ...', mass2)
 ```
-
-<br>
-<em><p align="left">An example of running a program with three different introductory sentences:</p></em>
-
 <kbd>
     <img src="https://drive.google.com/uc?id=1Bkz2XwyOrOyByYxjlfqfPMO9JOe2DKwG" width="700px" alt="Task-1">
 </kbd>
