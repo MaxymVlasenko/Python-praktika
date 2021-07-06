@@ -1,53 +1,88 @@
-# Task-0 
+<h1 align="center">Task-1</h1>
+
+<h3 align="left">Git clone</h3>
+<p align="left">Make a git clone of your past repository.</p>
+
+<p align="left">1. Copy url:</p>
+<kbd>
+    <img src="../Images/Task-1_2.png" width="700px" alt="Task-1">
+</kbd>
 
 <br>
-<h2 align="left">Connection ssh</h2>
+<br>
 
-### Example commands
+<p align="left">2. Entering the command into the terminal:</p>
+
+### Example command
 
 ```shell
-$ ssh-keygen -t rsa -b 4096 -C "visualsunity@gmail.com"
-$ eval "$(ssh-agent -s)"
-$ ssh-add ~/.ssh/id_rsa
+$ git clone https://github.com/sergden2021/python-practice.git
 ```
+
 <kbd>
-    <img src="https://drive.google.com/uc?id=1ioadIei7nNX8r9G1GYCKx4WodH6WGGAR" width="700px" title="Connection ssh">
+    <img src="../Images/Task-1_2.1.png" width="700px" alt="Task-1">
 </kbd>
-    
+
 <br>
 <br>
-<hr>
 
-<h2 align="left">Task-0</h2>
-<p align="left">1-Сформуйте список із 30 різних цілих чисел від -100 до + 100. Знайте максимальний елемент у списку і порядковий номер. Перепишіть список, щоб додати до нього лише непарні номери, або, можливо, таких номерів немає. Отримані список привести в порядок зміну елементів.</p>
+<p align="left">3. Task: Create a program, if you enter a row, that sees all the numbers in the surrounding array, for which the program is another row without numbers. and an array of numbers. The change of a row in such a rank, so that the word is skinny in new, was repaired and ended with a great letter. To know the maximum value in the array of numbers, and all of the іnshі numbers are brought to the degree according to the іх index, that is recorded in the first array.</p> 
 
-### Приклад
+### Example
 
 ```python
-import random as rndm
-data = []
+# Examples line:
+# the literal 1e-4 is interpreted as 10 raised to the power -4, which is 1/100, or 0.01.
+# if writing int(5.0 / 2) seems a little long winded to you
+# what do you think 0.1 + 0.2 is? The answer is 0.3, right?
 
-for _ in range(0, 30):
-    data.append(rndm.randint(-100, 100))
+import random
 
-print('масив різних чисел:', data)
-print('максимальне значення:', max(data))
+print('\033[33;1mPlease enter your string:\033[0m ', end='')
+line = input()
 
-counter = 1
-for idx, i in enumerate(data):
-    if i == max(data):
-        print('   %s) Index (%s) = %s' % (counter, idx, i))
-        counter+=1
+newline = ''
+numarr = []
 
-odd = []
-for elt in data:
-    if elt % 2 != 0:
-        odd.append(elt)
-if len(odd) == 0:
-    print('Без чисел')
-else:
-    print('Odd:', sorted(odd, reverse=True))
+for index, i in enumerate(line):
+    if i >= '0' and i <= '9':
+        numarr.append([int(i), int(index)])
+
+for i in line:
+    if i >= '0' and i <= '9':
+        continue
+    else:
+        newline += i
+
+print('\n\033[32;1mString without numbers:\033[0m', newline)
+print('\033[32;1mString of numbers:\033[0m ', numarr)
+
+words = []
+words = line.split()
+
+for index, i in enumerate(words):
+    words[index] = words[index][0].upper() + words[index][1:-1] + words[index][-1].upper()
+print('\033[32;1mWith a capital letter:\033[0m ', ' '.join(words), '\n')
+
+maxn = -1
+for i in numarr:
+    if int(i[0]) > maxn:
+        maxn = int(i[0])
+
+degreearr = []
+for i in numarr:
+    if int(i[0]) != maxn:
+        degreearr.append([i[0], i[0]**i[1], i[1]])
+
+print('\033[33mMax int in array: ' + str(maxn) + '\033[0m')
+print('\033[32;1mRaising numbers to powers by their index ( \033[0m\033[33;1m[number, exponentiation, index], ...\033[0m\033[32;1m ):\033[0m', degreearr)
+print('----------   Done!   ----------')
 ```
+
+<br>
+<em><p align="left">An example of running a program with three different introductory sentences:</p></em>
+
 <kbd>
-    <img src="https://drive.google.com/uc?id=1Bkz2XwyOrOyByYxjlfqfPMO9JOe2DKwG" width="700px" title="Task-0">
+    <img src="../Images/Task-1_1-1.png" width="700px" alt="Task-1">
 </kbd>
+
