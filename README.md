@@ -1,7 +1,7 @@
-# Task Completion Details Task-0 
+# Task-0 
 
 <br>
-<h2 align="center">Connection ssh</h2>
+<h2 align="left">Connection ssh</h2>
 
 ### Example commands
 
@@ -11,14 +11,14 @@ $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_rsa
 ```
 <kbd>
-    <img src="../Images/Screenshot-3.png" width="700px" title="Connection ssh">
+    <img src="https://drive.google.com/uc?id=1ioadIei7nNX8r9G1GYCKx4WodH6WGGAR" width="700px" title="Connection ssh">
 </kbd>
     
 <br>
 <br>
 <hr>
 
-<h2 align="center">Task-0</h2>
+<h2 align="left">Task-0</h2>
 <p align="left">Option 1: 1-Сформуйте список із 30 різних цілих чисел від -100 до + 100. Знайте максимальний елемент у списку і порядковий номер. Перепишіть список, щоб додати до нього лише непарні номери, або, можливо, таких номерів немає. Отримані список привести в порядок зміну елементів.</p>
 
 ### Example
@@ -51,7 +51,7 @@ else:
 <em><p align="left">Screenshots of program execution are shown below:</p></em>
 
 <kbd>
-    <img src="../Images/Screenshot-1_Task-1.png" width="700px" title="Task-0">
+    <img src="" width="700px" title="Task-0">
 </kbd>
  
 <br>
