@@ -19,7 +19,7 @@ $ ssh-add ~/.ssh/id_rsa
 <hr>
 
 <h2 align="center">Task-0</h2>
-<p align="left">Option 1: 1-Form a list of 30 different whole numbers from -100 to + 100. Know the maximum element in the list і th ordinal number. Rewrite the list to add only unpaired numbers on the list, or perhaps, there are no such numbers. Otrimaniy list to put in order the change of elements.</p>
+<p align="left">Option 1: 1-Сформуйте список із 30 різних цілих чисел від -100 до + 100. Знайте максимальний елемент у списку і порядковий номер. Перепишіть список, щоб додати до нього лише непарні номери, або, можливо, таких номерів немає. Отримані список привести в порядок зміну елементів.</p>
 
 ### Example
 
