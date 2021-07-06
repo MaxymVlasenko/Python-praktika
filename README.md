@@ -5,7 +5,7 @@
 
 <p align="left">1. Посилання:https://github.com/MaxymVlasenko/Python-praktika.git</p>
 <kbd>
-    <img src="../Images/Task-1_2.png" width="700px" alt="Task-1">
+    <img src="https://drive.google.com/uc?id=17tn4v1SVel_RawnNsDRSYnWhEKxm1ZTA" width="700px" alt="Task-1">
 </kbd>
 
 <br>
