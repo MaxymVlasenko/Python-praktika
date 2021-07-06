@@ -1,7 +1,7 @@
 <h1 align="left">Task-1</h1>
 
 <h3 align="left">Git clone</h3>
-<p align="left">Make a git clone of your past repository.</p>
+<p align="left">Зробіть git-клон вашого попереднього сховища.</p>
 
 <p align="left">1. Copy url:</p>
 <kbd>
@@ -11,7 +11,7 @@
 <br>
 <br>
 
-<p align="left">2. Entering the command into the terminal:</p>
+<p align="left">2. Введення команди в термінал:</p>
 
 ### Example command
 
