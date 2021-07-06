@@ -1,7 +1,7 @@
 # Task-0 
 
 <br>
-<h2 align="left">Connection ssh</h2>
+<h2 align="left">Підключення ssh</h2>
 
 ### Приклад 
 
