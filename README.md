@@ -3,7 +3,7 @@
 <h3 align="left">Git clone</h3>
 <p align="left">Зробіть git-клон вашого попереднього сховища.</p>
 
-<p align="left">1. Copy url:</p>
+<p align="left">1. Посилання:</p>
 <kbd>
     <img src="../Images/Task-1_2.png" width="700px" alt="Task-1">
 </kbd>
@@ -11,9 +11,9 @@
 <br>
 <br>
 
-<p align="left">2. Введення команди в термінал:</p>
+<p align="left">2. Введення команди :</p>
 
-### Example command
+### Приклад
 
 ```shell
 $ git clone https://github.com/sergden2021/python-practice.git
@@ -28,7 +28,7 @@ $ git clone https://github.com/sergden2021/python-practice.git
 
 <p align="left">3. Завдання: Створіть програму, якщо ви введете рядок, який бачить усі числа в оточуючому масиві, для яких програма є іншим рядком без чисел. і масив чисел. Зміна ряду в такому рангу, щоб слово було худим по-новому, була відремонтована і закінчилася великою буквою. Щоб знати максимальне значення в масиві чисел, і всі інші числа доводяться до ступеня відповідно до їх індексу, який записаний у першому масиві.</p> 
 
-### Example
+### Приклад
 
 ```python
 import random as rndm
