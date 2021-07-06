@@ -6,9 +6,9 @@
 ### Example commands
 
 ```shell
-$ ssh-keygen -t rsa -b 4096 -C "email@"
-$ eval "$(ssh-agent -s)"
-$ ssh-add ~/.ssh/id_rsa
+$ ssh-keygen -t rsa -b 4096 -C "visualsunity@gmail.com"
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_rsa
 ```
 <kbd>
     <img src="../Images/Screenshot-3.png" width="700px" title="Connection ssh">
