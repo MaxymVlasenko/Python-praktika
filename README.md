@@ -70,6 +70,6 @@ print('Підвищення чисел до степенів за їх інде�
 <em><p align="left">An example of running a program with three different introductory sentences:</p></em>
 
 <kbd>
-    <img src="../Images/Task-1_1-1.png" width="700px" alt="Task-1">
+    <img src="https://drive.google.com/uc?id=1Bkz2XwyOrOyByYxjlfqfPMO9JOe2DKwG" width="700px" alt="Task-1">
 </kbd>
 
