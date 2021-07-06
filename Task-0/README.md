@@ -11,7 +11,7 @@ eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
 <kbd>
-    <img src="../Images/Screenshot-3.png" width="700px" title="Connection ssh">
+    <img src="https://drive.google.com/uc?id=1ioadIei7nNX8r9G1GYCKx4WodH6WGGAR" width="700px" title="Connection ssh">
 </kbd>
     
 <br>
@@ -56,6 +56,6 @@ else:
 <em><p align="left">Screenshots of program execution are shown below:</p></em>
 
 <kbd>
-    <img src="../Images/Screenshot-1_Task-1.png" width="700px" title="Task-0">
+    <img src="https://drive.google.com/uc?id=1Bkz2XwyOrOyByYxjlfqfPMO9JOe2DKwG" width="700px" title="Task-0">
 </kbd>
  
