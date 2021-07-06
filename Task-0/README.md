@@ -3,7 +3,7 @@
 <br>
 <h2 align="left">Connection ssh</h2>
 
-### Example commands
+### Приклад 
 
 ```shell
 $ ssh-keygen -t rsa -b 4096 -C "visualsunity@gmail.com"
@@ -25,7 +25,7 @@ ssh-add ~/.ssh/id_rsa
 або повідомити, що таких чисел немає. Отриманий список вивести в
 порядку зменшення елементів.</p>
 
-### Example
+### Приклад
 
 ```python
 import random as rndm
@@ -52,9 +52,6 @@ if len(odd) == 0:
 else:
     print('Odd:', sorted(odd, reverse=True))
 ```
-
-<em><p align="left">Screenshots of program execution are shown below:</p></em>
-
 <kbd>
     <img src="https://drive.google.com/uc?id=1Bkz2XwyOrOyByYxjlfqfPMO9JOe2DKwG" width="700px" title="Task-0">
 </kbd>
