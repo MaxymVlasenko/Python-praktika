@@ -6,7 +6,7 @@
 ### Example commands
 
 ```shell
-$ ssh-keygen -t rsa -b 4096 -C "email@"
+$ ssh-keygen -t rsa -b 4096 -C "visualsunity@gmail.com"
 $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_rsa
 ```
@@ -23,32 +23,31 @@ $ ssh-add ~/.ssh/id_rsa
 
 ### Example
 
-p
-ython
-import random
-arr = []
+```python
+import random as rndm
+data = []
 
 for _ in range(0, 30):
-    arr.append(random.randint(-100, 100))
+    data.append(rndm.randint(-100, 100))
 
-print('Array:', arr)
-print('Max:', max(arr))
+print('масив різних чисел:', data)
+print('максимальне значення:', max(data))
 
-clist = 1
-for index, i in enumerate(arr):
-    if i == max(arr):
-        print('   %s) Index (%s) = %s' % (clist, index, i))
-        clist+=1
+counter = 1
+for idx, i in enumerate(data):
+    if i == max(data):
+        print('   %s) Index (%s) = %s' % (counter, idx, i))
+        counter+=1
 
 odd = []
-for elt in arr:
+for elt in data:
     if elt % 2 != 0:
         odd.append(elt)
 if len(odd) == 0:
-    print('No numbers')
+    print('Без чисел')
 else:
     print('Odd:', sorted(odd, reverse=True))
-
+```
 <em><p align="left">Screenshots of program execution are shown below:</p></em>
 
 <kbd>
